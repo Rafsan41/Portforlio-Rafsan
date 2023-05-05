@@ -1,31 +1,28 @@
 .main{
  width: 100%;
-
+/* border: 1px solid red; */
 }
 
 .slide001{
 display: flex;
 justify-content: center;
 align-items: center;
-width: 1349px;
+width:100%;
 
 }
 .part01{
- width: 850px;
+ width: 750px;
 height: 900px;
-position:relative;
 
-width: 870px;
 }
 .part01 img{
-width: calc(50% + 600px);
+width: 950px;
 height: 900px;
 
-z-index: -1;
 }
 
 .part02{ 
-  width: calc(40% - 50px);
+  width: 250px;
   height: 900px;
   background-image: linear-gradient(90deg,
   rgba(35, 38, 35, 1) 0%, 
