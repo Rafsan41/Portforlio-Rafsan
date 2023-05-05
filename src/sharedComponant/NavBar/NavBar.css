@@ -1,0 +1,33 @@
+.NavBarMain{
+background-color: rgb(133, 79, 184);
+    width: 1349px;
+    height: 70px;
+}
+.navBar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+.nav-logo-container{
+    width: 30px;
+}
+
+.nav-link-container {
+margin-right: 100px;
+
+}
+.nav-link-container {
+    display: flex;
+}
+.nav-link {
+    padding-left: 40px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: larger;
+    font-style: none;
+}
+.nav-link Link{
+color: black;
+}

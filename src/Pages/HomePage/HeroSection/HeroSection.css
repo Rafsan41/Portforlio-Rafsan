@@ -1,0 +1,80 @@
+.main{
+ width: 100%;
+
+}
+
+.slide001{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 1349px;
+
+}
+.part01{
+ width: 850px;
+height: 900px;
+position:relative;
+
+width: 870px;
+}
+.part01 img{
+width: calc(50% + 600px);
+height: 900px;
+
+z-index: -1;
+}
+
+.part02{ 
+  width: calc(40% - 50px);
+  height: 900px;
+  background-image: linear-gradient(90deg,
+  rgba(35, 38, 35, 1) 0%, 
+  rgba(31, 38, 31, 1) 0%, 
+  rgba(27, 38, 27, 1) 0%, 
+  rgba(24, 38, 24, 1) 0%, 
+  rgba(20, 38, 20, 1) 0%, 
+  rgba(16, 38, 16, 1) 0%, 
+  rgba(12, 38, 12, 1) 100%, 
+  rgba(8, 38, 8, 1) 100%, 
+  rgba(5, 38, 5, 1) 200%, 
+  rgba(1, 38, 1, 1) 200%); 
+  
+  
+}
+
+.slide-head {
+  padding-bottom: 40%;
+  padding-left: 60%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+.btn-container{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 20px;
+  background-color: rgb(96, 97, 97);
+  border: 40px soild rgb(255, 0, 0);
+}
+
+.contact-btn{
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 800; 
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.download-btn{
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 800;
+}
